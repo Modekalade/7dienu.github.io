@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 dienų maisto atmintinė</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        .day-container {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .day-container h2 {
+            margin-top: 0;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        textarea {
+            width: 100%;
+            height: 80px;
+            margin-top: 5px;
+            padding: 10px;
+            box-sizing: border-box;
+            font-size: 14px;
+            resize: vertical;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .product-summary {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .product-summary h3 {
+            margin-top: 0;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<h1>7 Dienų Maisto Atmintinė</h1>
+
+<form>
+
+    <!-- Diena 1 -->
+    <div class="day-container">
+        <h2>Diena 1</h2>
+
+        <label for="breakfast-day1">Pusryčiai</label>
+        <textarea id="breakfast-day1" placeholder="Įrašykite pusryčių receptą..."></textarea>
+        <label for="prep-day1-breakfast">Paruošimo instrukcijos</label>
+        <textarea id="prep-day1-breakfast" placeholder="Įrašykite pusryčių paruošimo instrukcijas..."></textarea>
+
+
+
+        <label for="products-day1-breakfast">Pusryčių reikalingi produktai</label>
+        <textarea id="products-day1-breakfast" placeholder="Įrašykite reikalingus produktus..."></textarea>
+
+        <label for="lunch-day1">Pietūs</label>
+        <textarea id="lunch-day1" placeholder="Įrašykite pietų receptą..."></textarea>
+        <label for="prep-day1-lunch">Paruošimo instrukcijos</label>
+        <textarea id="prep-day1-lunch" placeholder="Įrašykite pietų paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day1-lunch">Pietų reikalingi produktai</label>
+        <textarea id="products-day1-lunch" placeholder="Įrašykite reikalingus produktus..."></textarea>
+
+        <label for="dinner-day1">Vakarienė</label>
+        <textarea id="dinner-day1" placeholder="Įrašykite vakarienės receptą..."></textarea>
+        <label for="prep-day1-dinner">Paruošimo instrukcijos</label>
+        <textarea id="prep-day1-dinner" placeholder="Įrašykite vakarienės paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day1-dinner">Vakarienės reikalingi produktai</label>
+        <textarea id="products-day1-dinner" placeholder="Įrašykite reikalingus produktus..."></textarea>
+    </div>
+
+    <!-- Diena 2 -->
+    <div class="day-container">
+        <h2>Diena 2</h2>
+
+        <label for="breakfast-day2">Pusryčiai</label>
+        <textarea id="breakfast-day2" placeholder="Įrašykite pusryčių receptą..."></textarea>
+        <label for="prep-day2-breakfast">Paruošimo instrukcijos</label>
+        <textarea id="prep-day2-breakfast" placeholder="Įrašykite pusryčių paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day2-breakfast">Pusryčių reikalingi produktai</label>
+        <textarea id="products-day2-breakfast" placeholder="Įrašykite reikalingus produktus..."></textarea>
+
+        <label for="lunch-day2">Pietūs</label>
+        <textarea id="lunch-day2" placeholder="Įrašykite pietų receptą..."></textarea>
+        <label for="prep-day2-lunch">Paruošimo instrukcijos</label>
+        <textarea id="prep-day2-lunch" placeholder="Įrašykite pietų paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day2-lunch">Pietų reikalingi produktai</label>
+        <textarea id="products-day2-lunch" placeholder="Įrašykite reikalingus produktus..."></textarea>
+
+        <label for="dinner-day2">Vakarienė</label>
+        <textarea id="dinner-day2" placeholder="Įrašykite vakarienės receptą..."></textarea>
+        <label for="prep-day2-dinner">Paruošimo instrukcijos</label>
+        <textarea id="prep-day2-dinner" placeholder="Įrašykite vakarienės paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day2-dinner">Vakarienės reikalingi produktai</label>
+        <textarea id="products-day2-dinner" placeholder="Įrašykite reikalingus produktus..."></textarea>
+    </div>
+
+    <!-- Diena 3 -->
+    <div class="day-container">
+        <h2>Diena 3</h2>
+
+        <label for="breakfast-day3">Pusryčiai</label>
+        <textarea id="breakfast-day3" placeholder="Įrašykite pusryčių receptą..."></textarea>
+        <label for="prep-day3-breakfast">Paruošimo instrukcijos</label>
+        <textarea id="prep-day3-breakfast" placeholder="Įrašykite pusryčių paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day3-breakfast">Pusryčių reikalingi produktai</label>
+        <textarea id="products-day3-breakfast" placeholder="Įrašykite reikalingus produktus..."></textarea>
+
+        <label for="lunch-day3">Pietūs</label>
+        <textarea id="lunch-day3" placeholder="Įrašykite pietų receptą..."></textarea>
+        <label for="prep-day3-lunch">Paruošimo instrukcijos</label>
+        <textarea id="prep-day3-lunch" placeholder="Įrašykite pietų paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day3-lunch">Pietų reikalingi produktai</label>
+        <textarea id="products-day3-lunch" placeholder="Įrašykite reikalingus produktus..."></textarea>
+
+        <label for="dinner-day3">Vakarienė</label>
+        <textarea id="dinner-day3" placeholder="Įrašykite vakarienės receptą..."></textarea>
+        <label for="prep-day3-dinner">Paruošimo instrukcijos</label>
+        <textarea id="prep-day3-dinner" placeholder="Įrašykite vakarienės paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day3-dinner">Vakarienės reikalingi produktai</label>
+        <textarea id="products-day3-dinner" placeholder="Įrašykite reikalingus produktus..."></textarea>
+    </div>
+
+    <!-- Diena 4 -->
+    <div class="day-container">
+        <h2>Diena 4</h2>
+
+        <label for="breakfast-day4">Pusryčiai</label>
+        <textarea id="breakfast-day4" placeholder="Įrašykite pusryčių receptą..."></textarea>
+        <label for="prep-day4-breakfast">Paruošimo instrukcijos</label>
+        <textarea id="prep-day4-breakfast" placeholder="Įrašykite pusryčių paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day4-breakfast">Pusryčių reikalingi produktai</label>
+        <textarea id="products-day4-breakfast" placeholder="Įrašykite reikalingus produktus..."></textarea>
+
+        <label for="lunch-day4">Pietūs</label>
+        <textarea id="lunch-day4" placeholder="Įrašykite pietų receptą..."></textarea>
+        <label for="prep-day4-lunch">Paruošimo instrukcijos</label>
+        <textarea id="prep-day4-lunch" placeholder="Įrašykite pietų paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day4-lunch">Pietų reikalingi produktai</label>
+        <textarea id="products-day4-lunch" placeholder="Įrašykite reikalingus produktus..."></textarea>
+
+        <label for="dinner-day4">Vakarienė</label>
+        <textarea id="dinner-day4" placeholder="Įrašykite vakarienės receptą..."></textarea>
+        <label for="prep-day4-dinner">Paruošimo instrukcijos</label>
+        <textarea id="prep-day4-dinner" placeholder="Įrašykite vakarienės paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day4-dinner">Vakarienės reikalingi produktai</label>
+        <textarea id="products-day4-dinner" placeholder="Įrašykite reikalingus produktus..."></textarea>
+    </div>
+
+    <!-- Diena 5 -->
+    <div class="day-container">
+        <h2>Diena 5</h2>
+
+        <label for="breakfast-day5">Pusryčiai</label>
+        <textarea id="breakfast-day5" placeholder="Įrašykite pusryčių receptą..."></textarea>
+        <label for="prep-day5-breakfast">Paruošimo instrukcijos</label>
+        <textarea id="prep-day5-breakfast" placeholder="Įrašykite pusryčių paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day5-breakfast">Pusryčių reikalingi produktai</label>
+        <textarea id="products-day5-breakfast" placeholder="Įrašykite reikalingus produktus..."></textarea>
+
+        <label for="lunch-day5">Pietūs</label>
+        <textarea id="lunch-day5" placeholder="Įrašykite pietų receptą..."></textarea>
+        <label for="prep-day5-lunch">Paruošimo instrukcijos</label>
+        <textarea id="prep-day5-lunch" placeholder="Įrašykite pietų paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day5-lunch">Pietų reikalingi produktai</label>
+        <textarea id="products-day5-lunch" placeholder="Įrašykite reikalingus produktus..."></textarea>
+
+        <label for="dinner-day5">Vakarienė</label>
+        <textarea id="dinner-day5" placeholder="Įrašykite vakarienės receptą..."></textarea>
+        <label for="prep-day5-dinner">Paruošimo instrukcijos</label>
+        <textarea id="prep-day5-dinner" placeholder="Įrašykite vakarienės paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day5-dinner">Vakarienės reikalingi produktai</label>
+        <textarea id="products-day5-dinner" placeholder="Įrašykite reikalingus produktus..."></textarea>
+    </div>
+
+    <!-- Diena 6 -->
+    <div class="day-container">
+        <h2>Diena 6</h2>
+
+        <label for="breakfast-day6">Pusryčiai</label>
+        <textarea id="breakfast-day6" placeholder="Įrašykite pusryčių receptą..."></textarea>
+        <label for="prep-day6-breakfast">Paruošimo instrukcijos</label>
+        <textarea id="prep-day6-breakfast" placeholder="Įrašykite pusryčių paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day6-breakfast">Pusryčių reikalingi produktai</label>
+        <textarea id="products-day6-breakfast" placeholder="Įrašykite reikalingus produktus..."></textarea>
+
+        <label for="lunch-day6">Pietūs</label>
+        <textarea id="lunch-day6" placeholder="Įrašykite pietų receptą..."></textarea>
+        <label for="prep-day6-lunch">Paruošimo instrukcijos</label>
+        <textarea id="prep-day6-lunch" placeholder="Įrašykite pietų paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day6-lunch">Pietų reikalingi produktai</label>
+        <textarea id="products-day6-lunch" placeholder="Įrašykite reikalingus produktus..."></textarea>
+
+        <label for="dinner-day6">Vakarienė</label>
+        <textarea id="dinner-day6" placeholder="Įrašykite vakarienės receptą..."></textarea>
+        <label for="prep-day6-dinner">Paruošimo instrukcijos</label>
+        <textarea id="prep-day6-dinner" placeholder="Įrašykite vakarienės paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day6-dinner">Vakarienės reikalingi produktai</label>
+        <textarea id="products-day6-dinner" placeholder="Įrašykite reikalingus produktus..."></textarea>
+    </div>
+
+    <!-- Diena 7 -->
+    <div class="day-container">
+        <h2>Diena 7</h2>
+
+        <label for="breakfast-day7">Pusryčiai</label>
+        <textarea id="breakfast-day7" placeholder="Įrašykite pusryčių receptą..."></textarea>
+        <label for="prep-day7-breakfast">Paruošimo instrukcijos</label>
+        <textarea id="prep-day7-breakfast" placeholder="Įrašykite pusryčių paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day7-breakfast">Pusryčių reikalingi produktai</label>
+        <textarea id="products-day7-breakfast" placeholder="Įrašykite reikalingus produktus..."></textarea>
+
+        <label for="lunch-day7">Pietūs</label>
+        <textarea id="lunch-day7" placeholder="Įrašykite pietų receptą..."></textarea>
+        <label for="prep-day7-lunch">Paruošimo instrukcijos</label>
+        <textarea id="prep-day7-lunch" placeholder="Įrašykite pietų paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day7-lunch">Pietų reikalingi produktai</label>
+        <textarea id="products-day7-lunch" placeholder="Įrašykite reikalingus produktus..."></textarea>
+
+        <label for="dinner-day7">Vakarienė</label>
+        <textarea id="dinner-day7" placeholder="Įrašykite vakarienės receptą..."></textarea>
+        <label for="prep-day7-dinner">Paruošimo instrukcijos</label>
+        <textarea id="prep-day7-dinner" placeholder="Įrašykite vakarienės paruošimo instrukcijas..."></textarea>
+
+        <label for="products-day7-dinner">Vakarienės reikalingi produktai</label>
+        <textarea id="products-day7-dinner" placeholder="Įrašykite reikalingus produktus..."></textarea>
+    </div>
+
+    <button type="button" onclick="showWeeklyProducts()">Rodyti produktus visai savaitei</button>
+
+</form>
+
+<div class="product-summary">
+    <h3>Bendras savaitės produktų sąrašas:</h3>
+    <ul id="weekly-products-list"></ul>
+</div>
+
+<script>
+    function showWeeklyProducts() {
+        let productList = {};
+
+        function addProducts(productsText) {
+            let products = productsText.split(',');
+            products.forEach(function(product) {
+                let [name, quantity] = product.split(':').map(item => item.trim());
+                if (name) {
+                    if (!quantity) quantity = 1; // Jei kiekis nenurodytas, priskirti 1
+                    quantity = parseFloat(quantity);
+
+                    if (productList[name]) {
+                        productList[name] += quantity;
+                    } else {
+                        productList[name] = quantity;
+                    }
+                }
+            });
+        }
+
+        for (let i = 1; i <= 7; i++) {
+            // Pusryčių produktai
+            let breakfastProducts = document.getElementById('products-day' + i + '-breakfast').value;
+            if (breakfastProducts.trim() !== '') {
+                addProducts(breakfastProducts);
+            }
+            // Pietų produktai
+            let lunchProducts = document.getElementById('products-day' + i + '-lunch').value;
+            if (lunchProducts.trim() !== '') {
+                addProducts(lunchProducts);
+            }
+            // Vakarienės produktai
+            let dinnerProducts = document.getElementById('products-day' + i + '-dinner').value;
+            if (dinnerProducts.trim() !== '') {
+                addProducts(dinnerProducts);
+            }
+        }
+
+        let productListElement = document.getElementById('weekly-products-list');
+        productListElement.innerHTML = ''; // Išvalome ankstesnį sąrašą
+
+        for (let product in productList) {
+            let li = document.createElement('li');
+            li.textContent = `${product}: ${productList[product]}`;
+            productListElement.appendChild(li);
+        }
+    }
+</script>
+
+</body>
+</html>
+t
